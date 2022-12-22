@@ -1,5 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/HttpServer.dir/acceptor.cpp.o"
+  "CMakeFiles/HttpServer.dir/buffer.cpp.o"
+  "CMakeFiles/HttpServer.dir/channel.cpp.o"
+  "CMakeFiles/HttpServer.dir/channel_map.cpp.o"
+  "CMakeFiles/HttpServer.dir/event_loop.cpp.o"
+  "CMakeFiles/HttpServer.dir/log.cpp.o"
   "CMakeFiles/HttpServer.dir/tcp_server.cpp.o"
+  "CMakeFiles/HttpServer.dir/utils.cpp.o"
   "libHttpServer.a"
   "libHttpServer.pdb"
 )

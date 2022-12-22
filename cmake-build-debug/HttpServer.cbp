@@ -270,10 +270,61 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/acceptor.cpp">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/acceptor.h">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/buffer.cpp">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/buffer.h">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel.cpp">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel.h">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel_map.cpp">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel_map.h">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_dispatcher.h">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop.cpp">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop.h">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop_thread.h">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/log.cpp">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/log.h">
+			<Option target="HttpServer"/>
+		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_server.cpp">
 			<Option target="HttpServer"/>
 		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_server.h">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/thread_pool.h">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/utils.cpp">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/utils.h">
 			<Option target="HttpServer"/>
 		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/src/echo.c">

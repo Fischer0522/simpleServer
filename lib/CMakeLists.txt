@@ -1,11 +1,13 @@
 if (EPOLL_EXISTS)
     set(yolanda_lib
-            tcp_server.cpp
-            )
+            tcp_server.cpp channel.h channel.cpp event_loop.h event_loop.cpp event_dispatcher.h channel_map.h acceptor.h buffer.h event_loop_thread.h thread_pool.h utils.h utils.cpp log.h log.cpp
+            buffer.cpp
+            acceptor.cpp
+            channel_map.cpp)
 else ()
     set(yolanda_lib
 
-            tcp_server.cpp channel.h)
+            tcp_server.cpp channel.h channel.cpp event_loop.h event_loop.cpp event_dispatcher.h channel_map.h acceptor.h buffer.h event_loop_thread.h thread_pool.h utils.h utils.cpp log.h log.cpp acceptor.cpp buffer.cpp channel_map.cpp)
 endif ()
 
 

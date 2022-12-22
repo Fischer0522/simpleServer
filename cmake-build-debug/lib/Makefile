@@ -171,6 +171,168 @@ HttpServer/fast:
 	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/build
 .PHONY : HttpServer/fast
 
+acceptor.o: acceptor.cpp.o
+
+.PHONY : acceptor.o
+
+# target to build an object file
+acceptor.cpp.o:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/acceptor.cpp.o
+.PHONY : acceptor.cpp.o
+
+acceptor.i: acceptor.cpp.i
+
+.PHONY : acceptor.i
+
+# target to preprocess a source file
+acceptor.cpp.i:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/acceptor.cpp.i
+.PHONY : acceptor.cpp.i
+
+acceptor.s: acceptor.cpp.s
+
+.PHONY : acceptor.s
+
+# target to generate assembly for a file
+acceptor.cpp.s:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/acceptor.cpp.s
+.PHONY : acceptor.cpp.s
+
+buffer.o: buffer.cpp.o
+
+.PHONY : buffer.o
+
+# target to build an object file
+buffer.cpp.o:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/buffer.cpp.o
+.PHONY : buffer.cpp.o
+
+buffer.i: buffer.cpp.i
+
+.PHONY : buffer.i
+
+# target to preprocess a source file
+buffer.cpp.i:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/buffer.cpp.i
+.PHONY : buffer.cpp.i
+
+buffer.s: buffer.cpp.s
+
+.PHONY : buffer.s
+
+# target to generate assembly for a file
+buffer.cpp.s:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/buffer.cpp.s
+.PHONY : buffer.cpp.s
+
+channel.o: channel.cpp.o
+
+.PHONY : channel.o
+
+# target to build an object file
+channel.cpp.o:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/channel.cpp.o
+.PHONY : channel.cpp.o
+
+channel.i: channel.cpp.i
+
+.PHONY : channel.i
+
+# target to preprocess a source file
+channel.cpp.i:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/channel.cpp.i
+.PHONY : channel.cpp.i
+
+channel.s: channel.cpp.s
+
+.PHONY : channel.s
+
+# target to generate assembly for a file
+channel.cpp.s:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/channel.cpp.s
+.PHONY : channel.cpp.s
+
+channel_map.o: channel_map.cpp.o
+
+.PHONY : channel_map.o
+
+# target to build an object file
+channel_map.cpp.o:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/channel_map.cpp.o
+.PHONY : channel_map.cpp.o
+
+channel_map.i: channel_map.cpp.i
+
+.PHONY : channel_map.i
+
+# target to preprocess a source file
+channel_map.cpp.i:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/channel_map.cpp.i
+.PHONY : channel_map.cpp.i
+
+channel_map.s: channel_map.cpp.s
+
+.PHONY : channel_map.s
+
+# target to generate assembly for a file
+channel_map.cpp.s:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/channel_map.cpp.s
+.PHONY : channel_map.cpp.s
+
+event_loop.o: event_loop.cpp.o
+
+.PHONY : event_loop.o
+
+# target to build an object file
+event_loop.cpp.o:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/event_loop.cpp.o
+.PHONY : event_loop.cpp.o
+
+event_loop.i: event_loop.cpp.i
+
+.PHONY : event_loop.i
+
+# target to preprocess a source file
+event_loop.cpp.i:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/event_loop.cpp.i
+.PHONY : event_loop.cpp.i
+
+event_loop.s: event_loop.cpp.s
+
+.PHONY : event_loop.s
+
+# target to generate assembly for a file
+event_loop.cpp.s:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/event_loop.cpp.s
+.PHONY : event_loop.cpp.s
+
+log.o: log.cpp.o
+
+.PHONY : log.o
+
+# target to build an object file
+log.cpp.o:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/log.cpp.o
+.PHONY : log.cpp.o
+
+log.i: log.cpp.i
+
+.PHONY : log.i
+
+# target to preprocess a source file
+log.cpp.i:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/log.cpp.i
+.PHONY : log.cpp.i
+
+log.s: log.cpp.s
+
+.PHONY : log.s
+
+# target to generate assembly for a file
+log.cpp.s:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/log.cpp.s
+.PHONY : log.cpp.s
+
 tcp_server.o: tcp_server.cpp.o
 
 .PHONY : tcp_server.o
@@ -198,6 +360,33 @@ tcp_server.cpp.s:
 	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/tcp_server.cpp.s
 .PHONY : tcp_server.cpp.s
 
+utils.o: utils.cpp.o
+
+.PHONY : utils.o
+
+# target to build an object file
+utils.cpp.o:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/utils.cpp.o
+.PHONY : utils.cpp.o
+
+utils.i: utils.cpp.i
+
+.PHONY : utils.i
+
+# target to preprocess a source file
+utils.cpp.i:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/utils.cpp.i
+.PHONY : utils.cpp.i
+
+utils.s: utils.cpp.s
+
+.PHONY : utils.s
+
+# target to generate assembly for a file
+utils.cpp.s:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/utils.cpp.s
+.PHONY : utils.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -211,9 +400,30 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... HttpServer"
+	@echo "... acceptor.o"
+	@echo "... acceptor.i"
+	@echo "... acceptor.s"
+	@echo "... buffer.o"
+	@echo "... buffer.i"
+	@echo "... buffer.s"
+	@echo "... channel.o"
+	@echo "... channel.i"
+	@echo "... channel.s"
+	@echo "... channel_map.o"
+	@echo "... channel_map.i"
+	@echo "... channel_map.s"
+	@echo "... event_loop.o"
+	@echo "... event_loop.i"
+	@echo "... event_loop.s"
+	@echo "... log.o"
+	@echo "... log.i"
+	@echo "... log.s"
 	@echo "... tcp_server.o"
 	@echo "... tcp_server.i"
 	@echo "... tcp_server.s"
+	@echo "... utils.o"
+	@echo "... utils.i"
+	@echo "... utils.s"
 .PHONY : help
 
 

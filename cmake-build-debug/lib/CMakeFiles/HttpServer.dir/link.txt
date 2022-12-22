@@ -1,2 +1,2 @@
-/usr/bin/ar qc libHttpServer.a  CMakeFiles/HttpServer.dir/tcp_server.cpp.o
+/usr/bin/ar qc libHttpServer.a  CMakeFiles/HttpServer.dir/tcp_server.cpp.o CMakeFiles/HttpServer.dir/channel.cpp.o CMakeFiles/HttpServer.dir/event_loop.cpp.o CMakeFiles/HttpServer.dir/utils.cpp.o CMakeFiles/HttpServer.dir/log.cpp.o CMakeFiles/HttpServer.dir/buffer.cpp.o CMakeFiles/HttpServer.dir/acceptor.cpp.o CMakeFiles/HttpServer.dir/channel_map.cpp.o
 /usr/bin/ranlib libHttpServer.a
