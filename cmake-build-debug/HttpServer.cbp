@@ -294,6 +294,9 @@
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel_map.h">
 			<Option target="HttpServer"/>
 		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/epoll_dispatcher.cpp">
+			<Option target="HttpServer"/>
+		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_dispatcher.h">
 			<Option target="HttpServer"/>
 		</Unit>
@@ -310,6 +313,9 @@
 			<Option target="HttpServer"/>
 		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/log.h">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/poll_dispatcher.cpp">
 			<Option target="HttpServer"/>
 		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_server.cpp">

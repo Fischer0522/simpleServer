@@ -279,6 +279,33 @@ channel_map.cpp.s:
 	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/channel_map.cpp.s
 .PHONY : channel_map.cpp.s
 
+epoll_dispatcher.o: epoll_dispatcher.cpp.o
+
+.PHONY : epoll_dispatcher.o
+
+# target to build an object file
+epoll_dispatcher.cpp.o:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/epoll_dispatcher.cpp.o
+.PHONY : epoll_dispatcher.cpp.o
+
+epoll_dispatcher.i: epoll_dispatcher.cpp.i
+
+.PHONY : epoll_dispatcher.i
+
+# target to preprocess a source file
+epoll_dispatcher.cpp.i:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/epoll_dispatcher.cpp.i
+.PHONY : epoll_dispatcher.cpp.i
+
+epoll_dispatcher.s: epoll_dispatcher.cpp.s
+
+.PHONY : epoll_dispatcher.s
+
+# target to generate assembly for a file
+epoll_dispatcher.cpp.s:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/epoll_dispatcher.cpp.s
+.PHONY : epoll_dispatcher.cpp.s
+
 event_loop.o: event_loop.cpp.o
 
 .PHONY : event_loop.o
@@ -332,6 +359,33 @@ log.s: log.cpp.s
 log.cpp.s:
 	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/log.cpp.s
 .PHONY : log.cpp.s
+
+poll_dispatcher.o: poll_dispatcher.cpp.o
+
+.PHONY : poll_dispatcher.o
+
+# target to build an object file
+poll_dispatcher.cpp.o:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/poll_dispatcher.cpp.o
+.PHONY : poll_dispatcher.cpp.o
+
+poll_dispatcher.i: poll_dispatcher.cpp.i
+
+.PHONY : poll_dispatcher.i
+
+# target to preprocess a source file
+poll_dispatcher.cpp.i:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/poll_dispatcher.cpp.i
+.PHONY : poll_dispatcher.cpp.i
+
+poll_dispatcher.s: poll_dispatcher.cpp.s
+
+.PHONY : poll_dispatcher.s
+
+# target to generate assembly for a file
+poll_dispatcher.cpp.s:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/poll_dispatcher.cpp.s
+.PHONY : poll_dispatcher.cpp.s
 
 tcp_server.o: tcp_server.cpp.o
 
@@ -412,12 +466,18 @@ help:
 	@echo "... channel_map.o"
 	@echo "... channel_map.i"
 	@echo "... channel_map.s"
+	@echo "... epoll_dispatcher.o"
+	@echo "... epoll_dispatcher.i"
+	@echo "... epoll_dispatcher.s"
 	@echo "... event_loop.o"
 	@echo "... event_loop.i"
 	@echo "... event_loop.s"
 	@echo "... log.o"
 	@echo "... log.i"
 	@echo "... log.s"
+	@echo "... poll_dispatcher.o"
+	@echo "... poll_dispatcher.i"
+	@echo "... poll_dispatcher.s"
 	@echo "... tcp_server.o"
 	@echo "... tcp_server.i"
 	@echo "... tcp_server.s"
