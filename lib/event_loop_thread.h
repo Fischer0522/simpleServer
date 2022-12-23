@@ -7,14 +7,15 @@
 #include <pthread.h>
 
 struct event_loop_thread {
+    struct event_loop *eventLoop;
     pthread_t thread_tid;
     pthread_mutex_t mutex;
     pthread_cond_t cond;
     char * thread_name;
-    long thrread_count;
+    long thread_count;
 };
 
-int event_loop_thread_init(struct event_loop_thread *);
+int event_loop_thread_init(struct event_loop_thread *,int );
 
 struct event_loop *event_loop_thread_start(struct event_loop_thread *);
 

@@ -306,6 +306,9 @@
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop.h">
 			<Option target="HttpServer"/>
 		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop_thread.cpp">
+			<Option target="HttpServer"/>
+		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop_thread.h">
 			<Option target="HttpServer"/>
 		</Unit>
@@ -322,6 +325,9 @@
 			<Option target="HttpServer"/>
 		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_server.h">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/thread_pool.cpp">
 			<Option target="HttpServer"/>
 		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/thread_pool.h">
