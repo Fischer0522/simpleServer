@@ -321,6 +321,12 @@
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/poll_dispatcher.cpp">
 			<Option target="HttpServer"/>
 		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_connection.cpp">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_connection.h">
+			<Option target="HttpServer"/>
+		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_server.cpp">
 			<Option target="HttpServer"/>
 		</Unit>

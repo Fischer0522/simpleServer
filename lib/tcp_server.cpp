@@ -102,3 +102,66 @@ int tcp_nonblocking_server_listen(int port) {
 void make_nonblocking(int fd) {
     fcntl(fd, F_SETFL, O_NONBLOCK);
 }
+struct TCPserver *
+        tcp_server_init(struct event_loop *eventLoop,struct acceptor *acceptor,
+                connection_completed_call_back connectionCompletedCallBack,
+                connection_closed_call_back connectionClosedCallBack,
+                message_call_back messageCallBack,
+                write_completed_call_back writeCompletedCallBack,
+                int threadNum) {
+    struct TCPserver *tcpServer = (struct TCPserver*) malloc(sizeof(struct TCPserver));
+    tcpServer->event_loop = eventLoop;
+    tcpServer->acceptor = acceptor;
+    tcpServer->connectionClosedCallBack = connectionClosedCallBack;
+    tcpServer->messageCallBack = messageCallBack;
+    tcpServer->writeCompletedCallBack = writeCompletedCallBack;
+    tcpServer->connectionCompletedCallBack = connectionCompletedCallBack;
+    tcpServer->threadNum = threadNum;
+    tcpServer->threadPool = thread_pool_new(eventLoop,threadNum);
+    tcpServer->data = NULL;
+
+    return tcpServer;
+}
+/*1. accpet后使其非阻塞，*/
+int handle_connection_established(void *data) {
+    struct TCPserver *tcpServer = (struct TCPserver*) data;
+    struct acceptor *acceptor = tcpServer->acceptor;
+    int listen_fd = acceptor->listen_fd;
+    struct sockaddr_in client_addr;
+    socklen_t client_len = sizeof(client_addr);
+    int connected_fd = accept(listen_fd,(struct sockaddr*) &client_addr,&client_len);
+    make_nonblocking(connected_fd);
+
+    fischer_msgx("new connection established, socket == %d",connected_fd);
+
+    struct event_loop *eventLoop = tcpServer->event_loop;
+    struct tcp_connection *tcpConnection = tcp_connection_new(connected_fd,eventLoop,
+            tcpServer->connectionCompletedCallBack,
+            tcpServer->connectionClosedCallBack,
+            tcpServer->messageCallBack,
+            tcpServer->writeCompletedCallBack);
+
+    if (tcpServer->data != NULL) {
+        tcpConnection->data = tcpServer->data;
+    }
+    return 0;
+
+}
+void tcp_server_start(struct TCPserver *tcpServer) {
+    struct acceptor *acceptor = tcpServer->acceptor;
+    struct event_loop *eventLoop = tcpServer->event_loop;
+
+    thread_pool_start(tcpServer->threadPool);
+
+    struct channel *channel = channel_new(acceptor->listen_fd,EVENT_READ,handle_connection_established,
+            NULL,tcpServer);
+    event_loop_add_channel_event(eventLoop,acceptor->listen_fd,channel);
+    return;
+
+}
+
+void tcp_server_set_data(struct TCPserver *tcpServer, void *data) {
+    if (data != NULL) {
+        tcpServer->data = data;
+    }
+}

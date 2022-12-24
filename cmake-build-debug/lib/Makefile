@@ -414,6 +414,33 @@ poll_dispatcher.cpp.s:
 	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/poll_dispatcher.cpp.s
 .PHONY : poll_dispatcher.cpp.s
 
+tcp_connection.o: tcp_connection.cpp.o
+
+.PHONY : tcp_connection.o
+
+# target to build an object file
+tcp_connection.cpp.o:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/tcp_connection.cpp.o
+.PHONY : tcp_connection.cpp.o
+
+tcp_connection.i: tcp_connection.cpp.i
+
+.PHONY : tcp_connection.i
+
+# target to preprocess a source file
+tcp_connection.cpp.i:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/tcp_connection.cpp.i
+.PHONY : tcp_connection.cpp.i
+
+tcp_connection.s: tcp_connection.cpp.s
+
+.PHONY : tcp_connection.s
+
+# target to generate assembly for a file
+tcp_connection.cpp.s:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f lib/CMakeFiles/HttpServer.dir/build.make lib/CMakeFiles/HttpServer.dir/tcp_connection.cpp.s
+.PHONY : tcp_connection.cpp.s
+
 tcp_server.o: tcp_server.cpp.o
 
 .PHONY : tcp_server.o
@@ -535,6 +562,9 @@ help:
 	@echo "... poll_dispatcher.o"
 	@echo "... poll_dispatcher.i"
 	@echo "... poll_dispatcher.s"
+	@echo "... tcp_connection.o"
+	@echo "... tcp_connection.i"
+	@echo "... tcp_connection.s"
 	@echo "... tcp_server.o"
 	@echo "... tcp_server.i"
 	@echo "... tcp_server.s"

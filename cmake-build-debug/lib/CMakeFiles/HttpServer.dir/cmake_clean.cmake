@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/HttpServer.dir/event_loop_thread.cpp.o"
   "CMakeFiles/HttpServer.dir/log.cpp.o"
   "CMakeFiles/HttpServer.dir/poll_dispatcher.cpp.o"
+  "CMakeFiles/HttpServer.dir/tcp_connection.cpp.o"
   "CMakeFiles/HttpServer.dir/tcp_server.cpp.o"
   "CMakeFiles/HttpServer.dir/thread_pool.cpp.o"
   "CMakeFiles/HttpServer.dir/utils.cpp.o"

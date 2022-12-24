@@ -21,4 +21,13 @@ struct channel {
     event_write_callback eventWriteCallback;
     void* data;
 };
+struct channel *channel_new(int fd,int events,event_read_callback eventReadCallback,event_write_callback eventWriteCallback,
+                            void *data);
+
+int channel_write_event_is_enabled(struct channel *channel);
+
+int channel_write_event_enable(struct channel * channel);
+
+int channel_write_event_disable(struct channel * channel);
+
 #endif //HTTPSERVER_CHANNEL_H

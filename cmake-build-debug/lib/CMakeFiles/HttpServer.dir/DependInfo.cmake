@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop_thread.cpp" "/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib/CMakeFiles/HttpServer.dir/event_loop_thread.cpp.o"
   "/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/log.cpp" "/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib/CMakeFiles/HttpServer.dir/log.cpp.o"
   "/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/poll_dispatcher.cpp" "/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib/CMakeFiles/HttpServer.dir/poll_dispatcher.cpp.o"
+  "/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_connection.cpp" "/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib/CMakeFiles/HttpServer.dir/tcp_connection.cpp.o"
   "/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_server.cpp" "/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib/CMakeFiles/HttpServer.dir/tcp_server.cpp.o"
   "/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/thread_pool.cpp" "/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib/CMakeFiles/HttpServer.dir/thread_pool.cpp.o"
   "/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/utils.cpp" "/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib/CMakeFiles/HttpServer.dir/utils.cpp.o"
