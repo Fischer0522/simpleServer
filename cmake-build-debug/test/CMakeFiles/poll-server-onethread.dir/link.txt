@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/poll-server-onethread.dir/epoll-server-onethread.c.o  -o ../bin/poll-server-onethread  ../lib/libHttpServer.a -lpthread 

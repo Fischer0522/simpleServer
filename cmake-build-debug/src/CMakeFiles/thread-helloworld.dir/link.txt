@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/thread-helloworld.dir/thread-helloworld.c.o  -o ../bin/thread-helloworld  ../lib/libHttpServer.a -lpthread 
+/usr/bin/cc -g   CMakeFiles/thread-helloworld.dir/thread-helloworld.c.o  -o ../bin/thread-helloworld  ../lib/libHttpServer.a -lpthread 

@@ -57,210 +57,300 @@ include lib/CMakeFiles/HttpServer.dir/progress.make
 # Include the compile flags for this target's objects.
 include lib/CMakeFiles/HttpServer.dir/flags.make
 
-lib/CMakeFiles/HttpServer.dir/tcp_server.cpp.o: lib/CMakeFiles/HttpServer.dir/flags.make
-lib/CMakeFiles/HttpServer.dir/tcp_server.cpp.o: ../lib/tcp_server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/HttpServer.dir/tcp_server.cpp.o"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HttpServer.dir/tcp_server.cpp.o -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_server.cpp
+lib/CMakeFiles/HttpServer.dir/log.c.o: lib/CMakeFiles/HttpServer.dir/flags.make
+lib/CMakeFiles/HttpServer.dir/log.c.o: ../lib/log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/CMakeFiles/HttpServer.dir/log.c.o"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HttpServer.dir/log.c.o   -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/log.c
 
-lib/CMakeFiles/HttpServer.dir/tcp_server.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HttpServer.dir/tcp_server.cpp.i"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_server.cpp > CMakeFiles/HttpServer.dir/tcp_server.cpp.i
+lib/CMakeFiles/HttpServer.dir/log.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HttpServer.dir/log.c.i"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/log.c > CMakeFiles/HttpServer.dir/log.c.i
 
-lib/CMakeFiles/HttpServer.dir/tcp_server.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HttpServer.dir/tcp_server.cpp.s"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_server.cpp -o CMakeFiles/HttpServer.dir/tcp_server.cpp.s
+lib/CMakeFiles/HttpServer.dir/log.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/log.c.s"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/log.c -o CMakeFiles/HttpServer.dir/log.c.s
 
-lib/CMakeFiles/HttpServer.dir/channel.cpp.o: lib/CMakeFiles/HttpServer.dir/flags.make
-lib/CMakeFiles/HttpServer.dir/channel.cpp.o: ../lib/channel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/HttpServer.dir/channel.cpp.o"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HttpServer.dir/channel.cpp.o -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel.cpp
+lib/CMakeFiles/HttpServer.dir/sock_ntop.c.o: lib/CMakeFiles/HttpServer.dir/flags.make
+lib/CMakeFiles/HttpServer.dir/sock_ntop.c.o: ../lib/sock_ntop.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/CMakeFiles/HttpServer.dir/sock_ntop.c.o"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HttpServer.dir/sock_ntop.c.o   -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/sock_ntop.c
 
-lib/CMakeFiles/HttpServer.dir/channel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HttpServer.dir/channel.cpp.i"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel.cpp > CMakeFiles/HttpServer.dir/channel.cpp.i
+lib/CMakeFiles/HttpServer.dir/sock_ntop.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HttpServer.dir/sock_ntop.c.i"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/sock_ntop.c > CMakeFiles/HttpServer.dir/sock_ntop.c.i
 
-lib/CMakeFiles/HttpServer.dir/channel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HttpServer.dir/channel.cpp.s"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel.cpp -o CMakeFiles/HttpServer.dir/channel.cpp.s
+lib/CMakeFiles/HttpServer.dir/sock_ntop.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/sock_ntop.c.s"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/sock_ntop.c -o CMakeFiles/HttpServer.dir/sock_ntop.c.s
 
-lib/CMakeFiles/HttpServer.dir/event_loop.cpp.o: lib/CMakeFiles/HttpServer.dir/flags.make
-lib/CMakeFiles/HttpServer.dir/event_loop.cpp.o: ../lib/event_loop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/CMakeFiles/HttpServer.dir/event_loop.cpp.o"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HttpServer.dir/event_loop.cpp.o -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop.cpp
+lib/CMakeFiles/HttpServer.dir/read.c.o: lib/CMakeFiles/HttpServer.dir/flags.make
+lib/CMakeFiles/HttpServer.dir/read.c.o: ../lib/read.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/CMakeFiles/HttpServer.dir/read.c.o"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HttpServer.dir/read.c.o   -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/read.c
 
-lib/CMakeFiles/HttpServer.dir/event_loop.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HttpServer.dir/event_loop.cpp.i"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop.cpp > CMakeFiles/HttpServer.dir/event_loop.cpp.i
+lib/CMakeFiles/HttpServer.dir/read.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HttpServer.dir/read.c.i"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/read.c > CMakeFiles/HttpServer.dir/read.c.i
 
-lib/CMakeFiles/HttpServer.dir/event_loop.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HttpServer.dir/event_loop.cpp.s"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop.cpp -o CMakeFiles/HttpServer.dir/event_loop.cpp.s
+lib/CMakeFiles/HttpServer.dir/read.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/read.c.s"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/read.c -o CMakeFiles/HttpServer.dir/read.c.s
 
-lib/CMakeFiles/HttpServer.dir/utils.cpp.o: lib/CMakeFiles/HttpServer.dir/flags.make
-lib/CMakeFiles/HttpServer.dir/utils.cpp.o: ../lib/utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/CMakeFiles/HttpServer.dir/utils.cpp.o"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HttpServer.dir/utils.cpp.o -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/utils.cpp
+lib/CMakeFiles/HttpServer.dir/tcp_server.c.o: lib/CMakeFiles/HttpServer.dir/flags.make
+lib/CMakeFiles/HttpServer.dir/tcp_server.c.o: ../lib/tcp_server.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/CMakeFiles/HttpServer.dir/tcp_server.c.o"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HttpServer.dir/tcp_server.c.o   -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_server.c
 
-lib/CMakeFiles/HttpServer.dir/utils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HttpServer.dir/utils.cpp.i"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/utils.cpp > CMakeFiles/HttpServer.dir/utils.cpp.i
+lib/CMakeFiles/HttpServer.dir/tcp_server.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HttpServer.dir/tcp_server.c.i"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_server.c > CMakeFiles/HttpServer.dir/tcp_server.c.i
 
-lib/CMakeFiles/HttpServer.dir/utils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HttpServer.dir/utils.cpp.s"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/utils.cpp -o CMakeFiles/HttpServer.dir/utils.cpp.s
+lib/CMakeFiles/HttpServer.dir/tcp_server.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/tcp_server.c.s"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_server.c -o CMakeFiles/HttpServer.dir/tcp_server.c.s
 
-lib/CMakeFiles/HttpServer.dir/log.cpp.o: lib/CMakeFiles/HttpServer.dir/flags.make
-lib/CMakeFiles/HttpServer.dir/log.cpp.o: ../lib/log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/CMakeFiles/HttpServer.dir/log.cpp.o"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HttpServer.dir/log.cpp.o -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/log.cpp
+lib/CMakeFiles/HttpServer.dir/tcp_client.c.o: lib/CMakeFiles/HttpServer.dir/flags.make
+lib/CMakeFiles/HttpServer.dir/tcp_client.c.o: ../lib/tcp_client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/CMakeFiles/HttpServer.dir/tcp_client.c.o"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HttpServer.dir/tcp_client.c.o   -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_client.c
 
-lib/CMakeFiles/HttpServer.dir/log.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HttpServer.dir/log.cpp.i"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/log.cpp > CMakeFiles/HttpServer.dir/log.cpp.i
+lib/CMakeFiles/HttpServer.dir/tcp_client.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HttpServer.dir/tcp_client.c.i"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_client.c > CMakeFiles/HttpServer.dir/tcp_client.c.i
 
-lib/CMakeFiles/HttpServer.dir/log.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HttpServer.dir/log.cpp.s"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/log.cpp -o CMakeFiles/HttpServer.dir/log.cpp.s
+lib/CMakeFiles/HttpServer.dir/tcp_client.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/tcp_client.c.s"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_client.c -o CMakeFiles/HttpServer.dir/tcp_client.c.s
 
-lib/CMakeFiles/HttpServer.dir/buffer.cpp.o: lib/CMakeFiles/HttpServer.dir/flags.make
-lib/CMakeFiles/HttpServer.dir/buffer.cpp.o: ../lib/buffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/CMakeFiles/HttpServer.dir/buffer.cpp.o"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HttpServer.dir/buffer.cpp.o -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/buffer.cpp
+lib/CMakeFiles/HttpServer.dir/event_loop.c.o: lib/CMakeFiles/HttpServer.dir/flags.make
+lib/CMakeFiles/HttpServer.dir/event_loop.c.o: ../lib/event_loop.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/CMakeFiles/HttpServer.dir/event_loop.c.o"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HttpServer.dir/event_loop.c.o   -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop.c
 
-lib/CMakeFiles/HttpServer.dir/buffer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HttpServer.dir/buffer.cpp.i"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/buffer.cpp > CMakeFiles/HttpServer.dir/buffer.cpp.i
+lib/CMakeFiles/HttpServer.dir/event_loop.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HttpServer.dir/event_loop.c.i"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop.c > CMakeFiles/HttpServer.dir/event_loop.c.i
 
-lib/CMakeFiles/HttpServer.dir/buffer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HttpServer.dir/buffer.cpp.s"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/buffer.cpp -o CMakeFiles/HttpServer.dir/buffer.cpp.s
+lib/CMakeFiles/HttpServer.dir/event_loop.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/event_loop.c.s"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop.c -o CMakeFiles/HttpServer.dir/event_loop.c.s
 
-lib/CMakeFiles/HttpServer.dir/acceptor.cpp.o: lib/CMakeFiles/HttpServer.dir/flags.make
-lib/CMakeFiles/HttpServer.dir/acceptor.cpp.o: ../lib/acceptor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/CMakeFiles/HttpServer.dir/acceptor.cpp.o"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HttpServer.dir/acceptor.cpp.o -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/acceptor.cpp
+lib/CMakeFiles/HttpServer.dir/channel.c.o: lib/CMakeFiles/HttpServer.dir/flags.make
+lib/CMakeFiles/HttpServer.dir/channel.c.o: ../lib/channel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/CMakeFiles/HttpServer.dir/channel.c.o"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HttpServer.dir/channel.c.o   -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel.c
 
-lib/CMakeFiles/HttpServer.dir/acceptor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HttpServer.dir/acceptor.cpp.i"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/acceptor.cpp > CMakeFiles/HttpServer.dir/acceptor.cpp.i
+lib/CMakeFiles/HttpServer.dir/channel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HttpServer.dir/channel.c.i"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel.c > CMakeFiles/HttpServer.dir/channel.c.i
 
-lib/CMakeFiles/HttpServer.dir/acceptor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HttpServer.dir/acceptor.cpp.s"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/acceptor.cpp -o CMakeFiles/HttpServer.dir/acceptor.cpp.s
+lib/CMakeFiles/HttpServer.dir/channel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/channel.c.s"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel.c -o CMakeFiles/HttpServer.dir/channel.c.s
 
-lib/CMakeFiles/HttpServer.dir/channel_map.cpp.o: lib/CMakeFiles/HttpServer.dir/flags.make
-lib/CMakeFiles/HttpServer.dir/channel_map.cpp.o: ../lib/channel_map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object lib/CMakeFiles/HttpServer.dir/channel_map.cpp.o"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HttpServer.dir/channel_map.cpp.o -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel_map.cpp
+lib/CMakeFiles/HttpServer.dir/acceptor.c.o: lib/CMakeFiles/HttpServer.dir/flags.make
+lib/CMakeFiles/HttpServer.dir/acceptor.c.o: ../lib/acceptor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lib/CMakeFiles/HttpServer.dir/acceptor.c.o"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HttpServer.dir/acceptor.c.o   -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/acceptor.c
 
-lib/CMakeFiles/HttpServer.dir/channel_map.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HttpServer.dir/channel_map.cpp.i"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel_map.cpp > CMakeFiles/HttpServer.dir/channel_map.cpp.i
+lib/CMakeFiles/HttpServer.dir/acceptor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HttpServer.dir/acceptor.c.i"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/acceptor.c > CMakeFiles/HttpServer.dir/acceptor.c.i
 
-lib/CMakeFiles/HttpServer.dir/channel_map.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HttpServer.dir/channel_map.cpp.s"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel_map.cpp -o CMakeFiles/HttpServer.dir/channel_map.cpp.s
+lib/CMakeFiles/HttpServer.dir/acceptor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/acceptor.c.s"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/acceptor.c -o CMakeFiles/HttpServer.dir/acceptor.c.s
 
-lib/CMakeFiles/HttpServer.dir/epoll_dispatcher.cpp.o: lib/CMakeFiles/HttpServer.dir/flags.make
-lib/CMakeFiles/HttpServer.dir/epoll_dispatcher.cpp.o: ../lib/epoll_dispatcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object lib/CMakeFiles/HttpServer.dir/epoll_dispatcher.cpp.o"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HttpServer.dir/epoll_dispatcher.cpp.o -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/epoll_dispatcher.cpp
+lib/CMakeFiles/HttpServer.dir/channel_map.c.o: lib/CMakeFiles/HttpServer.dir/flags.make
+lib/CMakeFiles/HttpServer.dir/channel_map.c.o: ../lib/channel_map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lib/CMakeFiles/HttpServer.dir/channel_map.c.o"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HttpServer.dir/channel_map.c.o   -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel_map.c
 
-lib/CMakeFiles/HttpServer.dir/epoll_dispatcher.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HttpServer.dir/epoll_dispatcher.cpp.i"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/epoll_dispatcher.cpp > CMakeFiles/HttpServer.dir/epoll_dispatcher.cpp.i
+lib/CMakeFiles/HttpServer.dir/channel_map.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HttpServer.dir/channel_map.c.i"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel_map.c > CMakeFiles/HttpServer.dir/channel_map.c.i
 
-lib/CMakeFiles/HttpServer.dir/epoll_dispatcher.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HttpServer.dir/epoll_dispatcher.cpp.s"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/epoll_dispatcher.cpp -o CMakeFiles/HttpServer.dir/epoll_dispatcher.cpp.s
+lib/CMakeFiles/HttpServer.dir/channel_map.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/channel_map.c.s"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel_map.c -o CMakeFiles/HttpServer.dir/channel_map.c.s
 
-lib/CMakeFiles/HttpServer.dir/poll_dispatcher.cpp.o: lib/CMakeFiles/HttpServer.dir/flags.make
-lib/CMakeFiles/HttpServer.dir/poll_dispatcher.cpp.o: ../lib/poll_dispatcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object lib/CMakeFiles/HttpServer.dir/poll_dispatcher.cpp.o"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HttpServer.dir/poll_dispatcher.cpp.o -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/poll_dispatcher.cpp
+lib/CMakeFiles/HttpServer.dir/poll_dispatcher.c.o: lib/CMakeFiles/HttpServer.dir/flags.make
+lib/CMakeFiles/HttpServer.dir/poll_dispatcher.c.o: ../lib/poll_dispatcher.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lib/CMakeFiles/HttpServer.dir/poll_dispatcher.c.o"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HttpServer.dir/poll_dispatcher.c.o   -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/poll_dispatcher.c
 
-lib/CMakeFiles/HttpServer.dir/poll_dispatcher.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HttpServer.dir/poll_dispatcher.cpp.i"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/poll_dispatcher.cpp > CMakeFiles/HttpServer.dir/poll_dispatcher.cpp.i
+lib/CMakeFiles/HttpServer.dir/poll_dispatcher.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HttpServer.dir/poll_dispatcher.c.i"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/poll_dispatcher.c > CMakeFiles/HttpServer.dir/poll_dispatcher.c.i
 
-lib/CMakeFiles/HttpServer.dir/poll_dispatcher.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HttpServer.dir/poll_dispatcher.cpp.s"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/poll_dispatcher.cpp -o CMakeFiles/HttpServer.dir/poll_dispatcher.cpp.s
+lib/CMakeFiles/HttpServer.dir/poll_dispatcher.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/poll_dispatcher.c.s"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/poll_dispatcher.c -o CMakeFiles/HttpServer.dir/poll_dispatcher.c.s
 
-lib/CMakeFiles/HttpServer.dir/event_loop_thread.cpp.o: lib/CMakeFiles/HttpServer.dir/flags.make
-lib/CMakeFiles/HttpServer.dir/event_loop_thread.cpp.o: ../lib/event_loop_thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object lib/CMakeFiles/HttpServer.dir/event_loop_thread.cpp.o"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HttpServer.dir/event_loop_thread.cpp.o -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop_thread.cpp
+lib/CMakeFiles/HttpServer.dir/thread_pool.c.o: lib/CMakeFiles/HttpServer.dir/flags.make
+lib/CMakeFiles/HttpServer.dir/thread_pool.c.o: ../lib/thread_pool.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lib/CMakeFiles/HttpServer.dir/thread_pool.c.o"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HttpServer.dir/thread_pool.c.o   -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/thread_pool.c
 
-lib/CMakeFiles/HttpServer.dir/event_loop_thread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HttpServer.dir/event_loop_thread.cpp.i"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop_thread.cpp > CMakeFiles/HttpServer.dir/event_loop_thread.cpp.i
+lib/CMakeFiles/HttpServer.dir/thread_pool.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HttpServer.dir/thread_pool.c.i"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/thread_pool.c > CMakeFiles/HttpServer.dir/thread_pool.c.i
 
-lib/CMakeFiles/HttpServer.dir/event_loop_thread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HttpServer.dir/event_loop_thread.cpp.s"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop_thread.cpp -o CMakeFiles/HttpServer.dir/event_loop_thread.cpp.s
+lib/CMakeFiles/HttpServer.dir/thread_pool.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/thread_pool.c.s"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/thread_pool.c -o CMakeFiles/HttpServer.dir/thread_pool.c.s
 
-lib/CMakeFiles/HttpServer.dir/thread_pool.cpp.o: lib/CMakeFiles/HttpServer.dir/flags.make
-lib/CMakeFiles/HttpServer.dir/thread_pool.cpp.o: ../lib/thread_pool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object lib/CMakeFiles/HttpServer.dir/thread_pool.cpp.o"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HttpServer.dir/thread_pool.cpp.o -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/thread_pool.cpp
+lib/CMakeFiles/HttpServer.dir/event_loop_thread.c.o: lib/CMakeFiles/HttpServer.dir/flags.make
+lib/CMakeFiles/HttpServer.dir/event_loop_thread.c.o: ../lib/event_loop_thread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lib/CMakeFiles/HttpServer.dir/event_loop_thread.c.o"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HttpServer.dir/event_loop_thread.c.o   -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop_thread.c
 
-lib/CMakeFiles/HttpServer.dir/thread_pool.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HttpServer.dir/thread_pool.cpp.i"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/thread_pool.cpp > CMakeFiles/HttpServer.dir/thread_pool.cpp.i
+lib/CMakeFiles/HttpServer.dir/event_loop_thread.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HttpServer.dir/event_loop_thread.c.i"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop_thread.c > CMakeFiles/HttpServer.dir/event_loop_thread.c.i
 
-lib/CMakeFiles/HttpServer.dir/thread_pool.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HttpServer.dir/thread_pool.cpp.s"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/thread_pool.cpp -o CMakeFiles/HttpServer.dir/thread_pool.cpp.s
+lib/CMakeFiles/HttpServer.dir/event_loop_thread.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/event_loop_thread.c.s"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop_thread.c -o CMakeFiles/HttpServer.dir/event_loop_thread.c.s
 
-lib/CMakeFiles/HttpServer.dir/tcp_connection.cpp.o: lib/CMakeFiles/HttpServer.dir/flags.make
-lib/CMakeFiles/HttpServer.dir/tcp_connection.cpp.o: ../lib/tcp_connection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object lib/CMakeFiles/HttpServer.dir/tcp_connection.cpp.o"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HttpServer.dir/tcp_connection.cpp.o -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_connection.cpp
+lib/CMakeFiles/HttpServer.dir/utils.c.o: lib/CMakeFiles/HttpServer.dir/flags.make
+lib/CMakeFiles/HttpServer.dir/utils.c.o: ../lib/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lib/CMakeFiles/HttpServer.dir/utils.c.o"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HttpServer.dir/utils.c.o   -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/utils.c
 
-lib/CMakeFiles/HttpServer.dir/tcp_connection.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HttpServer.dir/tcp_connection.cpp.i"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_connection.cpp > CMakeFiles/HttpServer.dir/tcp_connection.cpp.i
+lib/CMakeFiles/HttpServer.dir/utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HttpServer.dir/utils.c.i"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/utils.c > CMakeFiles/HttpServer.dir/utils.c.i
 
-lib/CMakeFiles/HttpServer.dir/tcp_connection.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HttpServer.dir/tcp_connection.cpp.s"
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_connection.cpp -o CMakeFiles/HttpServer.dir/tcp_connection.cpp.s
+lib/CMakeFiles/HttpServer.dir/utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/utils.c.s"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/utils.c -o CMakeFiles/HttpServer.dir/utils.c.s
+
+lib/CMakeFiles/HttpServer.dir/epoll_dispatcher.c.o: lib/CMakeFiles/HttpServer.dir/flags.make
+lib/CMakeFiles/HttpServer.dir/epoll_dispatcher.c.o: ../lib/epoll_dispatcher.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lib/CMakeFiles/HttpServer.dir/epoll_dispatcher.c.o"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HttpServer.dir/epoll_dispatcher.c.o   -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/epoll_dispatcher.c
+
+lib/CMakeFiles/HttpServer.dir/epoll_dispatcher.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HttpServer.dir/epoll_dispatcher.c.i"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/epoll_dispatcher.c > CMakeFiles/HttpServer.dir/epoll_dispatcher.c.i
+
+lib/CMakeFiles/HttpServer.dir/epoll_dispatcher.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/epoll_dispatcher.c.s"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/epoll_dispatcher.c -o CMakeFiles/HttpServer.dir/epoll_dispatcher.c.s
+
+lib/CMakeFiles/HttpServer.dir/buffer.c.o: lib/CMakeFiles/HttpServer.dir/flags.make
+lib/CMakeFiles/HttpServer.dir/buffer.c.o: ../lib/buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lib/CMakeFiles/HttpServer.dir/buffer.c.o"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HttpServer.dir/buffer.c.o   -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/buffer.c
+
+lib/CMakeFiles/HttpServer.dir/buffer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HttpServer.dir/buffer.c.i"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/buffer.c > CMakeFiles/HttpServer.dir/buffer.c.i
+
+lib/CMakeFiles/HttpServer.dir/buffer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/buffer.c.s"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/buffer.c -o CMakeFiles/HttpServer.dir/buffer.c.s
+
+lib/CMakeFiles/HttpServer.dir/tcp_connection.c.o: lib/CMakeFiles/HttpServer.dir/flags.make
+lib/CMakeFiles/HttpServer.dir/tcp_connection.c.o: ../lib/tcp_connection.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lib/CMakeFiles/HttpServer.dir/tcp_connection.c.o"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HttpServer.dir/tcp_connection.c.o   -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_connection.c
+
+lib/CMakeFiles/HttpServer.dir/tcp_connection.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HttpServer.dir/tcp_connection.c.i"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_connection.c > CMakeFiles/HttpServer.dir/tcp_connection.c.i
+
+lib/CMakeFiles/HttpServer.dir/tcp_connection.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/tcp_connection.c.s"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_connection.c -o CMakeFiles/HttpServer.dir/tcp_connection.c.s
+
+lib/CMakeFiles/HttpServer.dir/http_server.c.o: lib/CMakeFiles/HttpServer.dir/flags.make
+lib/CMakeFiles/HttpServer.dir/http_server.c.o: ../lib/http_server.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object lib/CMakeFiles/HttpServer.dir/http_server.c.o"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HttpServer.dir/http_server.c.o   -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/http_server.c
+
+lib/CMakeFiles/HttpServer.dir/http_server.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HttpServer.dir/http_server.c.i"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/http_server.c > CMakeFiles/HttpServer.dir/http_server.c.i
+
+lib/CMakeFiles/HttpServer.dir/http_server.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/http_server.c.s"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/http_server.c -o CMakeFiles/HttpServer.dir/http_server.c.s
+
+lib/CMakeFiles/HttpServer.dir/http_request.c.o: lib/CMakeFiles/HttpServer.dir/flags.make
+lib/CMakeFiles/HttpServer.dir/http_request.c.o: ../lib/http_request.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object lib/CMakeFiles/HttpServer.dir/http_request.c.o"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HttpServer.dir/http_request.c.o   -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/http_request.c
+
+lib/CMakeFiles/HttpServer.dir/http_request.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HttpServer.dir/http_request.c.i"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/http_request.c > CMakeFiles/HttpServer.dir/http_request.c.i
+
+lib/CMakeFiles/HttpServer.dir/http_request.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/http_request.c.s"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/http_request.c -o CMakeFiles/HttpServer.dir/http_request.c.s
+
+lib/CMakeFiles/HttpServer.dir/http_response.c.o: lib/CMakeFiles/HttpServer.dir/flags.make
+lib/CMakeFiles/HttpServer.dir/http_response.c.o: ../lib/http_response.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lib/CMakeFiles/HttpServer.dir/http_response.c.o"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HttpServer.dir/http_response.c.o   -c /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/http_response.c
+
+lib/CMakeFiles/HttpServer.dir/http_response.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HttpServer.dir/http_response.c.i"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/http_response.c > CMakeFiles/HttpServer.dir/http_response.c.i
+
+lib/CMakeFiles/HttpServer.dir/http_response.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/http_response.c.s"
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/http_response.c -o CMakeFiles/HttpServer.dir/http_response.c.s
 
 # Object files for target HttpServer
 HttpServer_OBJECTS = \
-"CMakeFiles/HttpServer.dir/tcp_server.cpp.o" \
-"CMakeFiles/HttpServer.dir/channel.cpp.o" \
-"CMakeFiles/HttpServer.dir/event_loop.cpp.o" \
-"CMakeFiles/HttpServer.dir/utils.cpp.o" \
-"CMakeFiles/HttpServer.dir/log.cpp.o" \
-"CMakeFiles/HttpServer.dir/buffer.cpp.o" \
-"CMakeFiles/HttpServer.dir/acceptor.cpp.o" \
-"CMakeFiles/HttpServer.dir/channel_map.cpp.o" \
-"CMakeFiles/HttpServer.dir/epoll_dispatcher.cpp.o" \
-"CMakeFiles/HttpServer.dir/poll_dispatcher.cpp.o" \
-"CMakeFiles/HttpServer.dir/event_loop_thread.cpp.o" \
-"CMakeFiles/HttpServer.dir/thread_pool.cpp.o" \
-"CMakeFiles/HttpServer.dir/tcp_connection.cpp.o"
+"CMakeFiles/HttpServer.dir/log.c.o" \
+"CMakeFiles/HttpServer.dir/sock_ntop.c.o" \
+"CMakeFiles/HttpServer.dir/read.c.o" \
+"CMakeFiles/HttpServer.dir/tcp_server.c.o" \
+"CMakeFiles/HttpServer.dir/tcp_client.c.o" \
+"CMakeFiles/HttpServer.dir/event_loop.c.o" \
+"CMakeFiles/HttpServer.dir/channel.c.o" \
+"CMakeFiles/HttpServer.dir/acceptor.c.o" \
+"CMakeFiles/HttpServer.dir/channel_map.c.o" \
+"CMakeFiles/HttpServer.dir/poll_dispatcher.c.o" \
+"CMakeFiles/HttpServer.dir/thread_pool.c.o" \
+"CMakeFiles/HttpServer.dir/event_loop_thread.c.o" \
+"CMakeFiles/HttpServer.dir/utils.c.o" \
+"CMakeFiles/HttpServer.dir/epoll_dispatcher.c.o" \
+"CMakeFiles/HttpServer.dir/buffer.c.o" \
+"CMakeFiles/HttpServer.dir/tcp_connection.c.o" \
+"CMakeFiles/HttpServer.dir/http_server.c.o" \
+"CMakeFiles/HttpServer.dir/http_request.c.o" \
+"CMakeFiles/HttpServer.dir/http_response.c.o"
 
 # External object files for target HttpServer
 HttpServer_EXTERNAL_OBJECTS =
 
-lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/tcp_server.cpp.o
-lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/channel.cpp.o
-lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/event_loop.cpp.o
-lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/utils.cpp.o
-lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/log.cpp.o
-lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/buffer.cpp.o
-lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/acceptor.cpp.o
-lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/channel_map.cpp.o
-lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/epoll_dispatcher.cpp.o
-lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/poll_dispatcher.cpp.o
-lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/event_loop_thread.cpp.o
-lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/thread_pool.cpp.o
-lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/tcp_connection.cpp.o
+lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/log.c.o
+lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/sock_ntop.c.o
+lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/read.c.o
+lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/tcp_server.c.o
+lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/tcp_client.c.o
+lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/event_loop.c.o
+lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/channel.c.o
+lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/acceptor.c.o
+lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/channel_map.c.o
+lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/poll_dispatcher.c.o
+lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/thread_pool.c.o
+lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/event_loop_thread.c.o
+lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/utils.c.o
+lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/epoll_dispatcher.c.o
+lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/buffer.c.o
+lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/tcp_connection.c.o
+lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/http_server.c.o
+lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/http_request.c.o
+lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/http_response.c.o
 lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/build.make
 lib/libHttpServer.a: lib/CMakeFiles/HttpServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library libHttpServer.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking C static library libHttpServer.a"
 	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && $(CMAKE_COMMAND) -P CMakeFiles/HttpServer.dir/cmake_clean_target.cmake
 	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HttpServer.dir/link.txt --verbose=$(VERBOSE)
 

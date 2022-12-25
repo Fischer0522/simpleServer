@@ -14,6 +14,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../config.h.cmake"
   "../lib/CMakeLists.txt"
   "../src/CMakeLists.txt"
+  "../test/CMakeLists.txt"
   "/usr/share/cmake-3.16/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -51,12 +52,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "lib/CMakeFiles/HttpServer.dir/DependInfo.cmake"
-  "src/CMakeFiles/thread02.dir/DependInfo.cmake"
-  "src/CMakeFiles/thread01.dir/DependInfo.cmake"
-  "src/CMakeFiles/thread-helloworld.dir/DependInfo.cmake"
+  "src/CMakeFiles/http.dir/DependInfo.cmake"
+  "test/CMakeFiles/poll-server-onethread.dir/DependInfo.cmake"
   )

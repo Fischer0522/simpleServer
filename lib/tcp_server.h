@@ -31,7 +31,7 @@ struct TCPserver {
 };
 
 struct TCPserver *
-        tcp_server_init(struct event_loop *eventLoop,struct acceptor *acceptor,
+tcp_server_init(struct event_loop *eventLoop,struct acceptor *acceptor,
                 connection_completed_call_back connectionCompletedCallBack,
                 message_call_back messageCallBack,
                 write_completed_call_back writeCompletedCallBack,

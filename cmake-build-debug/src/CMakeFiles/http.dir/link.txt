@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/http.dir/http.c.o  -o ../bin/http  ../lib/libHttpServer.a -lpthread 

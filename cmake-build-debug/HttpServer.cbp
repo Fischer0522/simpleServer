@@ -5,7 +5,7 @@
 		<Option title="HttpServer"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\src\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\src\;CMake Files\test\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug"/>
@@ -125,8 +125,8 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="thread02">
-				<Option output="/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/bin/thread02" prefix_auto="0" extension_auto="0"/>
+			<Target title="http">
+				<Option output="/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/bin/http" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -143,14 +143,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 thread02"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 http"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="thread02/fast">
-				<Option output="/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/bin/thread02" prefix_auto="0" extension_auto="0"/>
+			<Target title="http/fast">
+				<Option output="/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/bin/http" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -167,14 +167,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 thread02/fast"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 http/fast"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="thread01">
-				<Option output="/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/bin/thread01" prefix_auto="0" extension_auto="0"/>
+			<Target title="poll-server-onethread">
+				<Option output="/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/bin/poll-server-onethread" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -191,14 +191,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 thread01"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 poll-server-onethread"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="thread01/fast">
-				<Option output="/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/bin/thread01" prefix_auto="0" extension_auto="0"/>
+			<Target title="poll-server-onethread/fast">
+				<Option output="/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/bin/poll-server-onethread" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -215,148 +215,117 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 thread01/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="thread-helloworld">
-				<Option output="/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/bin/thread-helloworld" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/bin"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/mnt/d/learn_software/program_file/ClionProject/HttpServer"/>
-					<Add directory="/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/include"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 thread-helloworld"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="thread-helloworld/fast">
-				<Option output="/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/bin/thread-helloworld" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/bin"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/mnt/d/learn_software/program_file/ClionProject/HttpServer"/>
-					<Add directory="/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/include"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 thread-helloworld/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 poll-server-onethread/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/acceptor.cpp">
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/acceptor.c">
 			<Option target="HttpServer"/>
 		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/acceptor.h">
 			<Option target="HttpServer"/>
 		</Unit>
-		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/buffer.cpp">
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/buffer.c">
 			<Option target="HttpServer"/>
 		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/buffer.h">
 			<Option target="HttpServer"/>
 		</Unit>
-		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel.cpp">
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel.c">
 			<Option target="HttpServer"/>
 		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel.h">
 			<Option target="HttpServer"/>
 		</Unit>
-		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel_map.cpp">
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel_map.c">
 			<Option target="HttpServer"/>
 		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/channel_map.h">
 			<Option target="HttpServer"/>
 		</Unit>
-		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/epoll_dispatcher.cpp">
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/epoll_dispatcher.c">
 			<Option target="HttpServer"/>
 		</Unit>
-		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_dispatcher.h">
-			<Option target="HttpServer"/>
-		</Unit>
-		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop.cpp">
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop.c">
 			<Option target="HttpServer"/>
 		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop.h">
 			<Option target="HttpServer"/>
 		</Unit>
-		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop_thread.cpp">
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop_thread.c">
 			<Option target="HttpServer"/>
 		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/event_loop_thread.h">
 			<Option target="HttpServer"/>
 		</Unit>
-		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/log.cpp">
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/http_request.c">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/http_request.h">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/http_response.c">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/http_response.h">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/http_server.c">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/http_server.h">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/log.c">
 			<Option target="HttpServer"/>
 		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/log.h">
 			<Option target="HttpServer"/>
 		</Unit>
-		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/poll_dispatcher.cpp">
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/poll_dispatcher.c">
 			<Option target="HttpServer"/>
 		</Unit>
-		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_connection.cpp">
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/read.c">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/sock_ntop.c">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_client.c">
+			<Option target="HttpServer"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_connection.c">
 			<Option target="HttpServer"/>
 		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_connection.h">
 			<Option target="HttpServer"/>
 		</Unit>
-		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_server.cpp">
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_server.c">
 			<Option target="HttpServer"/>
 		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/tcp_server.h">
 			<Option target="HttpServer"/>
 		</Unit>
-		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/thread_pool.cpp">
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/thread_pool.c">
 			<Option target="HttpServer"/>
 		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/thread_pool.h">
 			<Option target="HttpServer"/>
 		</Unit>
-		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/utils.cpp">
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/utils.c">
 			<Option target="HttpServer"/>
 		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/lib/utils.h">
 			<Option target="HttpServer"/>
 		</Unit>
-		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/src/echo.c">
-			<Option target="thread02"/>
-			<Option target="thread01"/>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/src/http.c">
+			<Option target="http"/>
 		</Unit>
-		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/src/thread-helloworld.c">
-			<Option target="thread-helloworld"/>
-		</Unit>
-		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/src/thread01.c">
-			<Option target="thread01"/>
-		</Unit>
-		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/src/thread02.c">
-			<Option target="thread02"/>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/test/epoll-server-onethread.c">
+			<Option target="poll-server-onethread"/>
 		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
@@ -369,6 +338,9 @@
 		</Unit>
 		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/mnt/d/learn_software/program_file/ClionProject/HttpServer/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

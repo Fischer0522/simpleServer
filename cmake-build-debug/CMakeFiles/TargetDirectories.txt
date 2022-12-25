@@ -16,7 +16,12 @@
 /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/CMakeFiles/install.dir
 /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/CMakeFiles/list_install_components.dir
 /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
-/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/CMakeFiles/thread02.dir
 /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/CMakeFiles/edit_cache.dir
-/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/CMakeFiles/thread01.dir
-/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/CMakeFiles/thread-helloworld.dir
+/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/CMakeFiles/http.dir
+/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/test/CMakeFiles/install/strip.dir
+/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/test/CMakeFiles/install/local.dir
+/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/test/CMakeFiles/install.dir
+/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/test/CMakeFiles/list_install_components.dir
+/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
+/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/test/CMakeFiles/edit_cache.dir
+/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/test/CMakeFiles/poll-server-onethread.dir

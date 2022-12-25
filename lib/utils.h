@@ -1,14 +1,10 @@
-//
-// Created by fisher on 2022/12/22.
-//
+#ifndef UTILS_H
+#define UTILS_H
 
-#ifndef HTTPSERVER_UTILS_H
 #include "event_loop.h"
 
 void assertInSameThread(struct event_loop *eventLoop);
 
+//1： same thread: 0： not the same thread
 int isInSameThread(struct event_loop *eventLoop);
-
-#define HTTPSERVER_UTILS_H
-
-#endif //HTTPSERVER_UTILS_H
+#endif

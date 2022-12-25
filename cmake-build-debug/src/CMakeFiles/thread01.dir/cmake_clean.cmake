@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "../bin/thread01"
   "../bin/thread01.pdb"
   "CMakeFiles/thread01.dir/echo.c.o"
+  "CMakeFiles/thread01.dir/http.c.o"
   "CMakeFiles/thread01.dir/thread01.c.o"
 )
 

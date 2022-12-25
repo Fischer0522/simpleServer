@@ -157,160 +157,46 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/thread02.dir/rule:
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/thread02.dir/rule
-.PHONY : src/CMakeFiles/thread02.dir/rule
+src/CMakeFiles/http.dir/rule:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/http.dir/rule
+.PHONY : src/CMakeFiles/http.dir/rule
 
 # Convenience name for target.
-thread02: src/CMakeFiles/thread02.dir/rule
+http: src/CMakeFiles/http.dir/rule
 
-.PHONY : thread02
+.PHONY : http
 
 # fast build rule for target.
-thread02/fast:
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/thread02.dir/build.make src/CMakeFiles/thread02.dir/build
-.PHONY : thread02/fast
+http/fast:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/http.dir/build.make src/CMakeFiles/http.dir/build
+.PHONY : http/fast
 
-# Convenience name for target.
-src/CMakeFiles/thread01.dir/rule:
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/thread01.dir/rule
-.PHONY : src/CMakeFiles/thread01.dir/rule
+http.o: http.c.o
 
-# Convenience name for target.
-thread01: src/CMakeFiles/thread01.dir/rule
-
-.PHONY : thread01
-
-# fast build rule for target.
-thread01/fast:
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/thread01.dir/build.make src/CMakeFiles/thread01.dir/build
-.PHONY : thread01/fast
-
-# Convenience name for target.
-src/CMakeFiles/thread-helloworld.dir/rule:
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/thread-helloworld.dir/rule
-.PHONY : src/CMakeFiles/thread-helloworld.dir/rule
-
-# Convenience name for target.
-thread-helloworld: src/CMakeFiles/thread-helloworld.dir/rule
-
-.PHONY : thread-helloworld
-
-# fast build rule for target.
-thread-helloworld/fast:
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/thread-helloworld.dir/build.make src/CMakeFiles/thread-helloworld.dir/build
-.PHONY : thread-helloworld/fast
-
-echo.o: echo.c.o
-
-.PHONY : echo.o
+.PHONY : http.o
 
 # target to build an object file
-echo.c.o:
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/thread02.dir/build.make src/CMakeFiles/thread02.dir/echo.c.o
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/thread01.dir/build.make src/CMakeFiles/thread01.dir/echo.c.o
-.PHONY : echo.c.o
+http.c.o:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/http.dir/build.make src/CMakeFiles/http.dir/http.c.o
+.PHONY : http.c.o
 
-echo.i: echo.c.i
+http.i: http.c.i
 
-.PHONY : echo.i
-
-# target to preprocess a source file
-echo.c.i:
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/thread02.dir/build.make src/CMakeFiles/thread02.dir/echo.c.i
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/thread01.dir/build.make src/CMakeFiles/thread01.dir/echo.c.i
-.PHONY : echo.c.i
-
-echo.s: echo.c.s
-
-.PHONY : echo.s
-
-# target to generate assembly for a file
-echo.c.s:
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/thread02.dir/build.make src/CMakeFiles/thread02.dir/echo.c.s
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/thread01.dir/build.make src/CMakeFiles/thread01.dir/echo.c.s
-.PHONY : echo.c.s
-
-thread-helloworld.o: thread-helloworld.c.o
-
-.PHONY : thread-helloworld.o
-
-# target to build an object file
-thread-helloworld.c.o:
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/thread-helloworld.dir/build.make src/CMakeFiles/thread-helloworld.dir/thread-helloworld.c.o
-.PHONY : thread-helloworld.c.o
-
-thread-helloworld.i: thread-helloworld.c.i
-
-.PHONY : thread-helloworld.i
+.PHONY : http.i
 
 # target to preprocess a source file
-thread-helloworld.c.i:
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/thread-helloworld.dir/build.make src/CMakeFiles/thread-helloworld.dir/thread-helloworld.c.i
-.PHONY : thread-helloworld.c.i
+http.c.i:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/http.dir/build.make src/CMakeFiles/http.dir/http.c.i
+.PHONY : http.c.i
 
-thread-helloworld.s: thread-helloworld.c.s
+http.s: http.c.s
 
-.PHONY : thread-helloworld.s
-
-# target to generate assembly for a file
-thread-helloworld.c.s:
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/thread-helloworld.dir/build.make src/CMakeFiles/thread-helloworld.dir/thread-helloworld.c.s
-.PHONY : thread-helloworld.c.s
-
-thread01.o: thread01.c.o
-
-.PHONY : thread01.o
-
-# target to build an object file
-thread01.c.o:
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/thread01.dir/build.make src/CMakeFiles/thread01.dir/thread01.c.o
-.PHONY : thread01.c.o
-
-thread01.i: thread01.c.i
-
-.PHONY : thread01.i
-
-# target to preprocess a source file
-thread01.c.i:
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/thread01.dir/build.make src/CMakeFiles/thread01.dir/thread01.c.i
-.PHONY : thread01.c.i
-
-thread01.s: thread01.c.s
-
-.PHONY : thread01.s
+.PHONY : http.s
 
 # target to generate assembly for a file
-thread01.c.s:
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/thread01.dir/build.make src/CMakeFiles/thread01.dir/thread01.c.s
-.PHONY : thread01.c.s
-
-thread02.o: thread02.c.o
-
-.PHONY : thread02.o
-
-# target to build an object file
-thread02.c.o:
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/thread02.dir/build.make src/CMakeFiles/thread02.dir/thread02.c.o
-.PHONY : thread02.c.o
-
-thread02.i: thread02.c.i
-
-.PHONY : thread02.i
-
-# target to preprocess a source file
-thread02.c.i:
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/thread02.dir/build.make src/CMakeFiles/thread02.dir/thread02.c.i
-.PHONY : thread02.c.i
-
-thread02.s: thread02.c.s
-
-.PHONY : thread02.s
-
-# target to generate assembly for a file
-thread02.c.s:
-	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/thread02.dir/build.make src/CMakeFiles/thread02.dir/thread02.c.s
-.PHONY : thread02.c.s
+http.c.s:
+	cd /mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/http.dir/build.make src/CMakeFiles/http.dir/http.c.s
+.PHONY : http.c.s
 
 # Help Target
 help:
@@ -323,22 +209,11 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... thread02"
 	@echo "... edit_cache"
-	@echo "... thread01"
-	@echo "... thread-helloworld"
-	@echo "... echo.o"
-	@echo "... echo.i"
-	@echo "... echo.s"
-	@echo "... thread-helloworld.o"
-	@echo "... thread-helloworld.i"
-	@echo "... thread-helloworld.s"
-	@echo "... thread01.o"
-	@echo "... thread01.i"
-	@echo "... thread01.s"
-	@echo "... thread02.o"
-	@echo "... thread02.i"
-	@echo "... thread02.s"
+	@echo "... http"
+	@echo "... http.o"
+	@echo "... http.i"
+	@echo "... http.s"
 .PHONY : help
 
 

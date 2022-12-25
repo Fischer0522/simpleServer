@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/epoll-server-multithreads.dir/epoll-server-multithreads.c.o  -o ../bin/epoll-server-multithreads  ../lib/libHttpServer.a -lpthread 

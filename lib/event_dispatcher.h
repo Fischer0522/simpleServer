@@ -6,7 +6,7 @@
 #define HTTPSERVER_EVENT_DISPATCHER_H
 
 #include "channel.h"
-struct event_dispatcher{
+struct event_dispatcher {
     const char *name;
     void *(*init)(struct event_loop *eventLoop);
 

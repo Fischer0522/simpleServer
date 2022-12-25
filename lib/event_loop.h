@@ -7,7 +7,11 @@
 
 #include "common.h"
 #include "event_dispatcher.h"
-#include "common.h"
+#include <pthread.h>
+
+extern const struct event_dispatcher poll_dispatcher;
+extern const struct event_dispatcher epoll_dispatcher;
+
 struct channel_element {
     int type;
     struct channel *channel;
@@ -16,9 +20,12 @@ struct channel_element {
 struct event_loop {
     int quit; // 表示是否结束循环的标志位
     const struct event_dispatcher *eventDispatcher;
-    void *event_dispatcher_data;
-    int is_handle_pending;
 
+    void *event_dispatcher_data;
+
+    struct channel_map *channelMap;
+
+    int is_handle_pending;
     struct channel_element *pending_head;
     struct channel_element *pending_tail;
 
@@ -47,7 +54,7 @@ int event_loop_handle_pending_add(struct event_loop *eventLoop,int fd,struct cha
 
 int event_loop_handle_pending_remove(struct event_loop *eventLoop,int fd,struct channel *channel1);
 
-int event_loop_handle_pending_update(struct event_loop *eventLoop,int fd,struct channel channel1);
+int event_loop_handle_pending_update(struct event_loop *eventLoop,int fd,struct channel *channel1);
 // res : EVENT_READ | EVENT_WRITE
 int channel_event_activate(struct event_loop *eventLoop,int fd,int res);
 

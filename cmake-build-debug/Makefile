@@ -170,43 +170,30 @@ HttpServer/fast:
 .PHONY : HttpServer/fast
 
 #=============================================================================
-# Target rules for targets named thread02
+# Target rules for targets named http
 
 # Build rule for target.
-thread02: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 thread02
-.PHONY : thread02
+http: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 http
+.PHONY : http
 
 # fast build rule for target.
-thread02/fast:
-	$(MAKE) -f src/CMakeFiles/thread02.dir/build.make src/CMakeFiles/thread02.dir/build
-.PHONY : thread02/fast
+http/fast:
+	$(MAKE) -f src/CMakeFiles/http.dir/build.make src/CMakeFiles/http.dir/build
+.PHONY : http/fast
 
 #=============================================================================
-# Target rules for targets named thread01
+# Target rules for targets named poll-server-onethread
 
 # Build rule for target.
-thread01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 thread01
-.PHONY : thread01
+poll-server-onethread: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 poll-server-onethread
+.PHONY : poll-server-onethread
 
 # fast build rule for target.
-thread01/fast:
-	$(MAKE) -f src/CMakeFiles/thread01.dir/build.make src/CMakeFiles/thread01.dir/build
-.PHONY : thread01/fast
-
-#=============================================================================
-# Target rules for targets named thread-helloworld
-
-# Build rule for target.
-thread-helloworld: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 thread-helloworld
-.PHONY : thread-helloworld
-
-# fast build rule for target.
-thread-helloworld/fast:
-	$(MAKE) -f src/CMakeFiles/thread-helloworld.dir/build.make src/CMakeFiles/thread-helloworld.dir/build
-.PHONY : thread-helloworld/fast
+poll-server-onethread/fast:
+	$(MAKE) -f test/CMakeFiles/poll-server-onethread.dir/build.make test/CMakeFiles/poll-server-onethread.dir/build
+.PHONY : poll-server-onethread/fast
 
 # Help Target
 help:
@@ -221,9 +208,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... HttpServer"
-	@echo "... thread02"
-	@echo "... thread01"
-	@echo "... thread-helloworld"
+	@echo "... http"
+	@echo "... poll-server-onethread"
 .PHONY : help
 
 

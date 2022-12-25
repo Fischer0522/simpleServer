@@ -11,7 +11,7 @@ struct channel_map {
     int nentries;
 
 };
-int map_make_space(struct *struct channel_map,int slot,int msize);
+int map_make_space(struct channel_map *map,int slot,int msize);
 
 void map_init(struct channel_map *map);
 

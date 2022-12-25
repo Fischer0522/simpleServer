@@ -30,6 +30,8 @@ int buffer_append_string(struct buffer *buffer,char *data);
 
 int buffer_socket_read(struct buffer *buffer,int fd);
 
+char buffer_read_char(struct buffer *buffer);
+
 char * buffer_find_CRLF(struct buffer *buffer);
 
 #endif //HTTPSERVER_BUFFER_H

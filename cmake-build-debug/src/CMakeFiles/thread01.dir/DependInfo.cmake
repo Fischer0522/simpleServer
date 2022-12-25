@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/mnt/d/learn_software/program_file/ClionProject/HttpServer/src/echo.c" "/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/CMakeFiles/thread01.dir/echo.c.o"
+  "/mnt/d/learn_software/program_file/ClionProject/HttpServer/src/http.c" "/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/CMakeFiles/thread01.dir/http.c.o"
   "/mnt/d/learn_software/program_file/ClionProject/HttpServer/src/thread01.c" "/mnt/d/learn_software/program_file/ClionProject/HttpServer/cmake-build-debug/src/CMakeFiles/thread01.dir/thread01.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

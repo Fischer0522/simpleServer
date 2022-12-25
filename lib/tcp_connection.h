@@ -30,10 +30,10 @@ struct tcp_connection {
 };
 
 struct tcp_connection *
-        tcp_connection_new(int fd,struct event_loop *eventLoop,connection_completed_call_back connectionCompletedCallBack,
-                connection_closed_call_back connectionClosedCallBack,
-                message_call_back messageCallBack,
-                write_completed_call_back writeCompletedCallBack);
+tcp_connection_new(int fd,struct event_loop *eventLoop,connection_completed_call_back connectionCompletedCallBack,
+                   connection_closed_call_back connectionClosedCallBack,
+                   message_call_back messageCallBack,
+                   write_completed_call_back writeCompletedCallBack);
 int tcp_connection_send_data(struct tcp_connection *tcpConnection,void *data,int size);
 
 int tcp_connection_send_buffer(struct tcp_connection *tcpConnection,struct buffer * buffer);

@@ -1,16 +1,46 @@
 if (EPOLL_EXISTS)
     set(yolanda_lib
-            tcp_server.cpp channel.h channel.cpp event_loop.h event_loop.cpp event_dispatcher.h channel_map.h acceptor.h buffer.h event_loop_thread.h thread_pool.h utils.h utils.cpp log.h log.cpp
-            buffer.cpp
-            acceptor.cpp
-            channel_map.cpp
-            epoll_dispatcher.cpp
-            poll_dispatcher.cpp
-            event_loop_thread.cpp thread_pool.cpp tcp_connection.cpp)
+            log.c
+            sock_ntop.c
+            read.c
+            tcp_server.c
+            tcp_client.c
+            event_loop.c
+            channel.c
+            acceptor.c
+            channel_map.c
+            poll_dispatcher.c
+            thread_pool.c
+            event_loop_thread.c
+            utils.c
+            epoll_dispatcher.c
+            buffer.c
+            tcp_connection.c
+            http_server.c
+            http_request.c
+            http_response.c
+            )
 else ()
     set(yolanda_lib
-
-            tcp_server.cpp channel.h channel.cpp event_loop.h event_loop.cpp event_dispatcher.h channel_map.h acceptor.h buffer.h event_loop_thread.h thread_pool.h utils.h utils.cpp log.h log.cpp acceptor.cpp buffer.cpp channel_map.cpp epoll_dispatcher.cpp poll_dispatcher.cpp event_loop_thread.cpp thread_pool.cpp tcp_connection.h tcp_connection.cpp)
+            log.c
+            sock_ntop.c
+            read.c
+            tcp_server.c
+            tcp_client.c
+            event_loop.c
+            channel.c
+            acceptor.c
+            channel_map.c
+            poll_dispatcher.c
+            thread_pool.c
+            event_loop_thread.c
+            utils.c
+            buffer.c
+            tcp_connection.c
+            http_server.c
+            http_request.c
+            http_response.c
+            )
 endif ()
 
 

@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/thread01.dir/thread01.c.o CMakeFiles/thread01.dir/echo.c.o  -o ../bin/thread01  ../lib/libHttpServer.a -lpthread 
+/usr/bin/cc -g   CMakeFiles/thread01.dir/thread01.c.o CMakeFiles/thread01.dir/echo.c.o CMakeFiles/thread01.dir/http.c.o  -o ../bin/thread01  ../lib/libHttpServer.a -lpthread 
